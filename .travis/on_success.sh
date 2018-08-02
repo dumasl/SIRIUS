@@ -6,7 +6,7 @@ if [ "x${TRAVIS_REPO_SLUG}" = "xdumasl/SIRIUS" ]; then
 
     cd "$TRAVIS_BUILD_DIR"
     mkdir doc/sphinx/build
-    docker run -v $TRAVIS_BUILD_DIR:/data ldumas/sirius_dockerfile:sirius_pages /bin/sh -c "cd /data; mv doxy_xml doc/sphinx/source/ ; ln -s source/doxy_xml . "
+    docker run -v $TRAVIS_BUILD_DIR:/data ldumas/sirius_dockerfile:sirius_pages /bin/sh -c "cd /data; mv doxy_xml doc/sphinx/source/ ; cd doc/sphinx/ ; ln -s source/doxy_xml . ; ls -l; ls -l *"
     docker run -v $TRAVIS_BUILD_DIR/doc/sphinx:/sphinx ldumas/sirius_dockerfile:sirius_pages /bin/sh -c "cd /sphinx; make html"
     cd $TRAVIS_BUILD_DIR/doc/sphinx/build/
     touch .nojekyll
