@@ -52,7 +52,7 @@ breathe_default_project = "Sirius"
 # Setup the exhale extension
 exhale_args = {
     # These arguments are required
-    "containmentFolder":     "source/api",
+    "containmentFolder":     "api",
     "rootFileName":          "library_root.rst",
     "rootFileTitle":         "Library API",
     "doxygenStripFromPath":  ".",
