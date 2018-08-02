@@ -15,9 +15,6 @@ that the hardest part is rather knowing how to comprehend its discretization and
     :numbered:
     :maxdepth: 2
 
-    Upsampling <upsampling/intro_up.rst>
-    Downsampling <downsampling/intro_down.rst>
-    References <other/ref.rst>
-    Sirius C++ doxygen <other/cpp_index.rst>
-    Python examples API <autoapi/index.rst>
+    Theoretical Basis <theoretical_basis.rst>
+    api/library_root
 
