@@ -1,5 +1,5 @@
-if [ "x${TRAVIS_REPO_SLUG}" = "xCS-SI/SIRIUS" ]; then
-    openssl aes-256-cbc -K $encrypted_f05cf190aee2_key -iv $encrypted_f05cf190aee2_iv -in .travis/github_deploy_key.enc -out github_deploy_key -d
+if [ "x${TRAVIS_REPO_SLUG}" = "xdumasl/SIRIUS" ]; then
+    openssl aes-256-cbc -K $encrypted_0e11fa39d04b_key -iv $encrypted_0e11fa39d04b_iv -in .travis/github_deploy_key.enc -out github_deploy_key -d
     chmod 600 github_deploy_key
     eval `ssh-agent -s`
     ssh-add github_deploy_key
