@@ -15,6 +15,7 @@ that the hardest part is rather knowing how to comprehend its discretization and
     :numbered:
     :maxdepth: 2
 
-    Theoretical Basis <theoretical_basis.rst>
-    api/library_root
+    Sirius at a glance <user_manual_caption>
+    Sirius Theoretical Basis <theoretical_basis.rst>
+    Sirius Developer Zone <api/library_root>
 

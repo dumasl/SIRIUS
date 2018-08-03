@@ -399,8 +399,9 @@ Sirius developers would like to thank:
 [Pandore]: https://clouard.users.greyc.fr/Pandore "Pandore: Une bibliothèque d'opérateurs de traitement d'images (Version 6.6). Laboratoire GREYC."
 [Getreuer]: https://doi.org/10.5201/ipol.2011.g_lmii "Getreuer, P. (2011). Linear Methods for Image Interpolation. Image Processing On Line, 1, 238259."
 
+[Doxygen]: https://CS-SI.github.io/SIRIUS/doxy_html/index.html
 [Internals]: INTERNALS.md "Internals"
-[Theoretical Basis]: https://CS-SI.github.io/SIRIUS/html/Sirius.html
+[Sirius doc]: https://CS-SI.github.io/SIRIUS/html/Sirius.html
 [Sirius test data features]: https://github.com/CS-SI/SIRIUS "Sirius test data features"
 
 [CS-SI]: https://uk.c-s.fr/ "CS Systèmes d'information"

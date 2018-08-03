@@ -7,7 +7,8 @@ extensions = [ 'sphinx.ext.imgmath' ,
 'IPython.sphinxext.ipython_console_highlighting',
 'IPython.sphinxext.ipython_directive',
 "breathe",
-"exhale"
+"exhale",
+'m2r'
 ]
 
 # -- General configuration ------------------------------------------------
