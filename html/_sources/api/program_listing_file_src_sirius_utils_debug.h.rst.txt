@@ -1,0 +1,30 @@
+
+.. _program_listing_file_src_sirius_utils_debug.h:
+
+Program Listing for File debug.h
+================================
+
+- Return to documentation for :ref:`file_src_sirius_utils_debug.h`
+
+.. code-block:: cpp
+
+   
+   #ifndef SIRIUS_UTILS_DEBUG_H_
+   #define SIRIUS_UTILS_DEBUG_H_
+   
+   #include <string>
+   
+   #include <fftw3.h>
+   
+   #include "sirius/types.h"
+   
+   namespace sirius {
+   namespace debug {
+   
+   void SaveFFTAsImage(const fftw_complex* fft, const Size& image_size,
+                       const std::string& output_filepath);
+   
+   }  // debug
+   }  // sirius
+   
+   #endif  // SIRIUS_UTILS_DEBUG_H_

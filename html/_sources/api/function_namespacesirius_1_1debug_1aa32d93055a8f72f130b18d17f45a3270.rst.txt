@@ -1,0 +1,13 @@
+.. _exhale_function_namespacesirius_1_1debug_1aa32d93055a8f72f130b18d17f45a3270:
+
+Function SaveFFTAsImage
+=======================
+
+- Defined in :ref:`file_src_sirius_utils_debug.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sirius::debug::SaveFFTAsImage
